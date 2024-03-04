@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     public int bagOfTokensScore(int[] tokens, int power) {
         Arrays.sort(tokens);
@@ -18,7 +20,7 @@ class Solution {
                 power += tokens[right--];
                 score--;
             } else {
-                return score;
+                return score;      
             }
         }
         return score;
