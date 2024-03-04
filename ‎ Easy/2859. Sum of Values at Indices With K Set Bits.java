@@ -1,3 +1,5 @@
+import java.util.List;
+
 class Solution {
     public int sumIndicesWithKSetBits(List<Integer> nums, int k) {
         int total = 0;
